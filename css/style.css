@@ -1,0 +1,530 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+@font-face{
+	font-family: SourceBlack;
+  src:url('../font/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: SourceBold;
+  src:url('../font/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: SourceRegular;
+  src:url('../font/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: SourceSemiBold;
+  src:url('../font/SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: SourceSemiLink;
+  src:url('../font/SourceSansPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Roboto-Bold;
+  src:url('../font/Roboto-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-Bold;
+  src:url('../font/Raleway-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-Italic;
+  src:url('../font/Raleway-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-BoldItalic;
+  src:url('../font/Raleway-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-Light;
+  src:url('../font/Raleway-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-Medium;
+  src:url('../font/Raleway-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Raleway-Regular;
+  src:url('../font/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ .menu{
+	margin-top: 45px;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+  display: inline;
+}
+.menu li a{
+	padding: 0px 20px 0px 20px;
+  color: #484848;
+  font-family: SourceSemiBold;
+  font-size: 16px;
+}
+.menu li a:hover{
+   text-decoration: none;
+   color: red;
+}
+.soicail a{
+  color: #323232;
+  font-size: 20px;
+  padding: 0px 12px 0px 12px;
+}
+.soicail a:last-child{
+  padding-left: 44px;
+}
+/* HET HEADER */
+.fashion{
+  margin-top: 73px;
+}
+.fashion h1{
+  text-transform: uppercase;
+  font-family: Roboto-Bold;
+  font-size: 26px;
+  padding: 0px 0px 0px 29px;
+  color: #333333;
+  line-height: 40px;
+}
+.text i:first-child{
+    margin: 5px 0px 0px -20px;
+    transform: rotate(45deg);
+    font-size: 33px;
+}
+.text i:last-child{
+    margin: -24px 0px -9px 223px;
+    font-size: 33px;
+    transform: rotate(45deg);
+}
+.fashion p a{
+  color: #111111;
+  font-size: 14px;
+  font-family: SourceRegular;
+  margin: 38px 10px 0px 32px;
+  text-decoration: underline;
+}
+.fashion p > i{
+  color: #595959;
+}
+.art{
+  margin-top: 45px;
+}
+/*  HET FASHION */
+.aboutme{
+  margin-top: 45px;
+}
+.aboutme h3{
+  color: #222222;
+  font-size: 24px;
+  font-family: SourceRegular;
+  margin-bottom: 80px;
+}
+.about, .vuong, .court, .bgtext, .mangxh{
+  position: absolute;
+}
+.vuong{
+  z-index: 0;
+  transform: translateX(39px);
+}
+.about{
+  z-index: 1;
+  transform: translateY(-38px);
+}
+.court h1{
+  color: #fffefe;
+  height: 80px;
+  width: 335px;
+  background: #646464;
+  line-height: 80px;
+  z-index: 2;
+  position: relative;
+  transform: translatex(-245px);
+ }
+.bgtext{
+  width: 550px;
+  height: 215px;
+  background:#f1f4f3;
+  text-align: right;
+  color: #4f504f;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 42px 35px;
+  z-index: 0;
+  position: absolute;
+  margin-top: 150px;
+}
+
+.mangxh a i{
+  color: #666666;
+  padding: 0 0 0 10px;
+  z-index: 1;
+  position: relative;
+  font-size: 16px;
+}
+.noidung h2{
+  padding: 277px 0px 0px 398px;
+}
+/* HET FASHION */
+.featured{
+  margin-top: 490px;
+}
+.title h2{
+  margin-bottom: 44px;
+  color: #6a6a6a;
+  font-size: 18px;
+  font-family: Raleway-Medium;
+}
+.title h1{
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+   font-family: Raleway-Bold;
+   text-transform: uppercase;
+}
+.title p{
+  text-align: left;
+  margin-top: 23px;
+  color: #767676;
+  font-size: 16px;
+  font-family: Raleway-Italic;
+}
+  .slider a i{
+  color: black;
+  padding: 10px;
+  margin-top: -10px;
+}
+.slider a i:nth-child(2){
+  font-size: 10px;
+transform: translatey(-5px);
+} 
+/* HET FEATURED */
+section{
+  margin-top: 65px;
+}
+  .sidebar h1{
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: Raleway-Bold;
+  line-height: 30px;
+  margin-top: 100px;
+  margin-bottom: 29px;
+}
+.sidebar h2{
+  margin: 20px 0px 35px 0px;
+  color: #acacac;
+  font-size: 16px;
+font-family: Raleway-Italic;  
+}
+.sidebar h2 > b{
+  color: #444444;
+   font-family: Raleway-BoldItalic;
+}
+.sidebar p{
+  color: #a0a0a0;
+  font-size: 16px;
+   font-family: Raleway-Regular;
+   margin-bottom: 50px;
+}
+.sidebar a{
+  text-decoration: underline;
+  color: #404040;
+  font-size: 16px;
+   font-family: Raleway-Regular;
+}
+.sidebar span{
+  margin-top: 37px;
+}
+/* HET SIDEBAR */
+.flat img{
+  transform: translateX(-32px);
+  padding: 21px 0px 21px 0px;
+}
+.avatar img{
+   border-radius: 50%;
+    width: 116px;
+    height: 116px;
+    object-fit: cover;
+    margin-left: 9px;
+    margin-top: 34px;
+}
+h1.tieude{
+  color: #525252;
+  font-size: 12px;
+  font-family: Raleway-Medium;
+  margin-top: 33px;
+}
+h1.tieude::before{
+  content: "";
+  width: 30px;
+  height: 1px;
+  margin: 25px 7px 119px 117px;
+  background:#222222;
+   display: block;
+position: absolute; 
+}
+.avatar p{
+  font-size: 12px;
+  font-family: Raleway-Regular;
+  color: #9a9c9c;
+  margin-top: 35px;
+}
+.soi a i{
+color: #222222;
+padding: 18px 10px 24px 10px;
+}
+.instagram img{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.instagram a{
+color: #bbbdbe;
+text-decoration: none;
+}
+.instagram a i{
+  color: #363637;
+  padding: 12px;
+}
+.daylight img{
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+ .subscribe div{
+  height: 155px;
+  width: 270px;
+  background: #f6f6f6;
+  padding-top: 25px;
+  margin-top: 35px;
+  margin-bottom: 73px;
+}
+.subscribe p{
+  font-size: 12px;
+  color: #696d6e;
+   font-family: Raleway-Regular;
+}
+.subscribe input{
+  width: 206px;
+  height: 49px;
+  border: solid #f7f7f7 1px;
+  margin-top: 15px;
+    margin-left: 16px;
+}
+.subscribe input::placeholder{
+  color: #b3b7b8 !important;
+  font-size: 12px;
+  font-family:Raleway-Regular;
+  padding-left: 19px;
+}
+.subscribe img{
+  transform: translateX(-42px);
+}
+ .handpicked img{
+  border-radius: 50%;
+  height: 70px;
+  margin-top: 30px;
+   width: 70px;
+  object-fit: cover;
+}
+.hand p{
+  color: #83888a;
+  font-size: 11px;
+ font-family: Raleway-Medium;
+ margin-top: 43px;
+ text-align: left;
+}
+
+.hand h1{
+  color: #333333;
+  font-size: 14px;
+   font-family: Raleway-Bold;
+   text-align: left;
+   transform: translateY(-17px);
+}
+.handpick2 img{
+  border-radius: 50%;
+  height: 70px;
+  margin-top: 0px;
+   width: 70px;
+  object-fit: cover;
+  object-position: 0px -17px;
+}
+.hand2 p{
+  color: #83888a;
+  font-size: 11px;
+ font-family: Raleway-Medium;
+ margin-top: 16px;
+ text-align: left;
+}
+
+.hand2 h1{
+  color: #333333;
+  font-size: 14px;
+   font-family: Raleway-Bold;
+   text-align: left;
+   transform: translateY(-17px);
+}
+
+.hand3 p{
+  color: #83888a;
+  font-size: 11px;
+ font-family: Raleway-Medium;
+ margin-top: 16px;
+ text-align: left;
+}
+
+.hand3 h1{
+  color: #333333;
+  font-size: 14px;
+   font-family: Raleway-Bold;
+   text-align: left;
+   transform: translateY(-17px);
+}
+.handpick3 img{
+  border-radius: 50%;
+  height: 70px;
+  margin-top: 0px;
+   width: 70px;
+  object-fit: cover;
+  object-position: 0px -17px;
+}
+.green img{
+   transform: translateX(-36px);
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.latesttweets a i{
+  color: #222222;
+  font-size: 26px;
+  margin-top: 34px;
+}
+.latesttweets p{
+  margin-top: 21px;
+  font-size: 12px;
+ font-family: Raleway-Medium;
+}
+.latesttweets small{
+  color: #656565;
+  font-size: 11px;
+  font-family: Raleway-Italic; 
+}
+.latesttweets h2 i{
+  color: #9fa5a7;
+  padding: 6px;
+  font-size: 16px;
+}
+.cute img{
+  margin-top: 17px;
+  background-size: cover;
+  object-fit: cover;
+}
+/* PHÂN TRANG PAGINATION */
+.pagination{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 37px;
+ }
+ .pagination .page-numbers{
+  list-style-type: none;
+ }
+ .pagination .page-numbers li {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  border-radius: 50%;
+  padding: 0px 23px 0px 23px;
+ }
+ .pagination .page-numbers .page-number {
+  display: block;
+  color: #181819;
+  font-size: 14px;
+   font-family: Raleway-Bold;
+  text-decoration: none;
+  border-radius: 50%;
+   height: 45px;
+   width: 45px;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+ }
+ .pagination .page-numbers li:hover > .page-number,
+ .pagination .page-numbers li .page-number.current {
+   color: #ffffff;
+   background-color:#181819;
+    font-family: Raleway-Bold;
+ }
+.pagination ul li p{
+  font-size: 14px;
+   font-family: Raleway-Bold;
+   color: #363637;
+   margin-left: 18px;
+}
+.pagination ul li i{
+  margin-left: 35px;
+}
+/* FOOTER */
+.chan ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+.chan ul li img{
+  height: 254px;
+  width: 254px;
+  object-fit: cover;
+  padding: 14px;
+  margin-top: 30px;
+  image-rendering: pixelated;
+}
+/* CHANTRANG */
+.chantrang img{
+  margin-top: 33px;
+  margin-bottom: 65px;
+}
+.chantrang h1{
+  color: #3d3d3d;
+  font-size: 18px;
+  font-family: Raleway-Medium;
+  margin-top: 25px;
+}
+.chantrang p{
+  color: #696d6e;
+  font-size: 12px;
+  font-family: Raleway-Medium;
+  margin-top: 25px;
+  margin-bottom: 53px;
+}
+.chantrang a i{
+  color: #696d6e;
+  padding: 11px;
+  font-size: 18px;
+  margin-top: 7px;
+}
